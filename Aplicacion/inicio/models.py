@@ -5,3 +5,6 @@ from django.db import models
 
 class usuarios(models.Model):
     num = models.CharField(max_length=5)
+
+    def __str__(self) -> str:
+        return str(self.num)
