@@ -10,3 +10,6 @@ def serv(request):
 
 def inicio_de_sesion(request):
     return render(request,'inicio_de_session.html')
+
+def session(request):
+    return render(request,'session.html')
