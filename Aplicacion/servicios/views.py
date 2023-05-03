@@ -13,3 +13,6 @@ def inicio_de_sesion(request):
 
 def session(request):
     return render(request,'session.html')
+
+def registro(request):
+    return render(request,'registro.html')
